@@ -6,7 +6,7 @@
 /*   By: jlorette <jlorette@42angouleme.fr>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/16 15:18:06 by jlorette          #+#    #+#             */
-/*   Updated: 2024/09/16 15:28:20 by jlorette         ###   ########.fr       */
+/*   Updated: 2024/09/16 16:11:26 by jlorette         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 #include "../ft_printf/include/ft_printf.h"
 #include "../libft/libft.h"
 
-void	ascii_to_binary(int	pid, char c)
+void	ascii_to_binary(int pid, char c)
 {
 	int	bit;
 
