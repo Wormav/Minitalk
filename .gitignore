@@ -51,6 +51,7 @@ Module.symvers
 Mkfile.old
 dkms.conf
 
+# Custom
 DS_store
 /minitalk
 client
