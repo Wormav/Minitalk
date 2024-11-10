@@ -26,7 +26,7 @@ void	ascii_to_binary(int pid, char c)
 			kill(pid, SIGUSR1);
 		else
 			kill(pid, SIGUSR2);
-		usleep(500);
+		usleep(300);
 		bit++;
 	}
 }
@@ -40,6 +40,11 @@ int	main(int argc, char **argv)
 	if (argc == 3)
 	{
 		pid = ft_atoi(argv[1]);
+		if (pid <= 0)
+		{
+			ft_putstr_fd("Error\n", 2);
+			return (1);
+		}
 		while (argv[2][i] != '\0')
 		{
 			ascii_to_binary(pid, argv[2][i]);
